@@ -1,0 +1,124 @@
+{
+    "Apps": [
+        {
+            "Id": "7zip.7zip",
+            "Name": "7-Zip"
+        },
+        {
+            "Id": "Gyan.FFmpeg",
+            "Name": "FFmpeg"
+        },
+        {
+            "Id": "Microsoft.WindowsTerminal",
+            "Name": "Windows Terminal"
+        },
+        {
+            "Id": "CodecGuide.K-LiteCodecPack.Full",
+            "Name": "K-Lite Codec Pack"
+        },
+        {
+            "Id": "GNU.Nano",
+            "Name": "Nano"
+        },
+        {
+            "Id": "git.git",
+            "Name": "Git"
+        },
+        {
+            "Id": "Microsoft.PowerShell",
+            "Name": "PowerShell"
+        },
+        {
+            "Id": "Anaconda.Miniconda3",
+            "Name": "Miniconda3"
+        },
+        {
+            "Id": "Microsoft.VisualStudioCommunity",
+            "Name": "Visual Studio Community 2022"
+        },
+        {
+            "Id": "BraveSoftware.BraveBrowser",
+            "Name": "Brave Browser"
+        },
+        {
+            "Id": "AgileBits.1Password",
+            "Name": "1Password"
+        },
+        {
+            "Id": "Discord.Discord",
+            "Name": "Discord",
+            "Category": "communication",
+            "Folder": "discord"
+        },
+        {
+            "Id": "Microsoft.VisualStudioCode",
+            "Name": "Visual Studio Code",
+            "Category": "dev",
+            "Folder": "vscode"
+        },
+        {
+            "Id": "Parsec.Parsec",
+            "Name": "Parsec"
+        },
+        {
+            "Id": "Valve.Steam",
+            "Name": "Steam",
+            "Category": "entertainment",
+            "Folder": "steam"
+        },
+        {
+            "Id": "Tencent.WeChat",
+            "Name": "WeChat",
+            "Category": "communication",
+            "Folder": "wechat"
+        },
+        {
+            "Id": "OBSProject.OBSStudio",
+            "Name": "OBS Studio",
+            "Category": "utils",
+            "Folder": "obs"
+        },
+        {
+            "Id": "PointPlanck.FileBot",
+            "Name": "FileBot",
+            "Category": "utils",
+            "Folder": "filebot"
+        },
+        {
+            "Id": "TGRMNSoftware.BulkRenameUtility",
+            "Name": "Bulk Rename Utility",
+            "Category": "utils",
+            "Folder": "bulkrenameutility"
+        },
+        {
+            "Id": "NickeManarin.ScreenToGif",
+            "Name": "ScreenToGif",
+            "Category": "utils",
+            "Folder": "screentogif"
+        },
+        {
+            "Id": "th-ch.YouTubeMusic",
+            "Name": "YouTube Music",
+            "Category": "entertainment",
+            "Folder": "youtube-music"
+        },
+        {
+            "Id": "Obsidian.Obsidian",
+            "Name": "Obsidian",
+            "Category": "utils",
+            "Folder": "obsidian"
+        },
+        {
+            "Id": "Google.GoogleDrive",
+            "Name": "Google Drive"
+        },
+        {
+            "Id": "MullvadVPN.MullvadBrowser",
+            "Name": "Mullvad Browser"
+        },
+        {
+            "Id": "MullvadVPN.MullvadVPN",
+            "Name": "Mullvad VPN"
+        }
+    ]
+}

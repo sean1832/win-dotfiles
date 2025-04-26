@@ -1,0 +1,44 @@
+{
+    "Apps": [
+        {
+            "Id": "7zip.7zip",
+            "Name": "7-Zip"
+        },
+        {
+            "Id": "Gyan.FFmpeg",
+            "Name": "FFmpeg"
+        },
+        {
+            "Id": "Microsoft.WindowsTerminal",
+            "Name": "Windows Terminal"
+        },
+        {
+            "Id": "CodecGuide.K-LiteCodecPack.Full",
+            "Name": "K-Lite Codec Pack"
+        },
+        {
+            "Id": "GNU.Nano",
+            "Name": "Nano"
+        },
+        {
+            "Id": "Git.Git",
+            "Name": "Git"
+        },
+        {
+            "Id": "Microsoft.PowerShell",
+            "Name": "PowerShell"
+        },
+        {
+            "Id": "Anaconda.Miniconda3",
+            "Name": "Miniconda3"
+        },
+        {
+            "Id": "Brave.Brave",
+            "Name": "Brave Browser"
+        },
+        {
+            "Id": "Microsoft.VisualStudioCode",
+            "Name": "Visual Studio Code"
+        }
+    ]
+}
