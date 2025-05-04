@@ -64,7 +64,7 @@ if ($Mode -eq '_schema') {
 
 # --- Locate config file ---
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-$configPath = Join-Path $ScriptDir '..\apps' -ChildPath "$Mode.json"
+$configPath = Join-Path $ScriptDir "..\apps\$Mode.json"
 # resolve to absolute path
 $configPath = (Resolve-Path $configPath).Path
 if (-not (Test-Path $configPath)) {
