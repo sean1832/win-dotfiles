@@ -5,4 +5,4 @@ if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
     exit
 }
 
-set-executionpolicy RemoteSigned
+set-executionpolicy RemoteSigned -Scope CurrentUser
