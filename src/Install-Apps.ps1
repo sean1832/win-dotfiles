@@ -47,7 +47,18 @@ Options:
     exit 0
 }
 
+# --- Validate parameters ---
 if ($Help -or -not $Mode) {
+    Show-Usage
+}
+
+if ($Mode -notmatch '^(essential|full|[a-zA-Z0-9_-]+)$') {
+    Write-Error "Invalid config name: '$Mode'"
+    Show-Usage
+}
+
+if ($Mode -eq '_schema') {
+    Write-Error "_schema cannot be used as a config name."
     Show-Usage
 }
 

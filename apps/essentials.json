@@ -1,4 +1,5 @@
 {
+    "$schema": "_schema.json",
     "Apps": [
         {
             "Id": "7zip.7zip",
