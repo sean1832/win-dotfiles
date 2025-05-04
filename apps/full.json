@@ -119,6 +119,24 @@
         {
             "Id": "MullvadVPN.MullvadVPN",
             "Name": "Mullvad VPN"
+        },
+        {
+            "Id": "Plex.Plex",
+            "Name": "Plex",
+            "Category": "media",
+            "Folder": "plex"
+        },
+        {
+            "Id": "GitHub.GitHubDesktop",
+            "Name": "GitHub Desktop",
+            "Category": "dev",
+            "Folder": "github-desktop"
+        },
+        {
+            "Id": "BlenderFoundation.Blender",
+            "Name": "Blender",
+            "Category": "design",
+            "Folder": "blender"
         }
     ]
 }
