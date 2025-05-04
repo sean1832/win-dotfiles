@@ -1,0 +1,9 @@
+@echo off
+echo Creating a restore point...
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0src\Create-RestorePoint.ps1" %*
+
+echo installing winget...
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0src\Install-Winget.ps1" %*
+
+echo restore Microsoft Store...
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0src\Restore-Mstore.ps1" %*
