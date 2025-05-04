@@ -1,6 +1,6 @@
 @echo off
 echo Creating a restore point...
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0src\Create-RestorePoint.ps1" %*
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0src\Create-RestorePoint.ps1" win-dotfiles APPLICATION_INSTALL
 
 echo installing winget...
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0src\Install-Winget.ps1" %*
