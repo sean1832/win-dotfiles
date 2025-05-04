@@ -1,0 +1,41 @@
+{
+    "$schema": "_schema.json",
+    "Apps": [
+        {
+            "Id": "9PMMSR1CGPWG",
+            "Name": "HEIF Image Extension"
+        },
+        {
+            "Id": "9PG2DK419DRG",
+            "Name": "WebP Image Extension"
+        },
+        {
+            "Id": "9NCTDW2W1BH8",
+            "Name": "Raw Image Extension"
+        },
+        {
+            "Id": "9NT1R1C2HH7J",
+            "Name": "ChatGPT"
+        },
+        {
+            "Id": "9MVZQVXJBQ9V",
+            "Name": "AV1 Video Extension"
+        },
+        {
+            "Id": "9N95Q1ZZPMH4",
+            "Name": "MPEG-2 Video Extension"
+        },
+        {
+            "Id": "9N5TDP8VCMHS",
+            "Name": "Web Media Extensions"
+        },
+        {
+            "Id": "9NKSQGP7F2NH",
+            "Name": "WhatsApp"
+        },
+        {
+            "Id": "9MZ95KL8MR0L",
+            "Name": "Snipping Tool"
+        }
+    ]
+}
