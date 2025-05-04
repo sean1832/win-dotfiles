@@ -53,7 +53,9 @@ if ($Help -or -not $Mode) {
 
 # --- Locate config file ---
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-$configPath = Join-Path $ScriptDir "apps\$Mode.json"
+$configPath = Join-Path $ScriptDir '..\apps' -ChildPath "$Mode.json"
+# resolve to absolute path
+$configPath = (Resolve-Path $configPath).Path
 if (-not (Test-Path $configPath)) {
     Write-Error "Config file '$configPath' not found."
     Show-Usage
